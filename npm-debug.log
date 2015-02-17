@@ -1,0 +1,180 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'mup' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 silly cache add args [ 'mup', null ]
+5 verbose cache add spec mup
+6 silly cache add parsed spec { raw: 'mup',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'mup',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed mup@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'mup', range: '*', hasData: false }
+11 silly mapToRegistry name mup
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/mup
+15 verbose addNameRange registry:https://registry.npmjs.org/mup not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/mup
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 5:44:31 PM
+19 verbose request id 242d8d9188e7b3d2
+20 verbose etag "1ODC1XOETVS326NVHKRX2HFXA"
+21 http request GET https://registry.npmjs.org/mup
+22 http 304 https://registry.npmjs.org/mup
+23 silly get cb [ 304,
+23 silly get   { date: 'Mon, 16 Feb 2015 22:44:31 GMT',
+23 silly get     server: 'Apache',
+23 silly get     via: '1.1 varnish',
+23 silly get     'last-modified': 'Mon, 16 Feb 2015 22:44:32 GMT',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     etag: '"1ODC1XOETVS326NVHKRX2HFXA"',
+23 silly get     age: '0',
+23 silly get     'x-served-by': 'cache-jfk1026-JFK',
+23 silly get     'x-cache': 'MISS',
+23 silly get     'x-cache-hits': '0',
+23 silly get     'x-timer': 'S1424126671.782099,VS0,VE248',
+23 silly get     vary: 'Accept',
+23 silly get     'content-length': '0',
+23 silly get     'keep-alive': 'timeout=10, max=50',
+23 silly get     connection: 'Keep-Alive' } ]
+24 verbose etag https://registry.npmjs.org/mup from cache
+25 verbose get saving mup to /Users/matthewobrien/.npm/registry.npmjs.org/mup/.cache.json
+26 silly addNameRange number 2 { name: 'mup', range: '*', hasData: true }
+27 silly addNameRange versions [ 'mup',
+27 silly addNameRange   [ '0.1.2',
+27 silly addNameRange     '0.1.3',
+27 silly addNameRange     '0.1.4',
+27 silly addNameRange     '0.1.5',
+27 silly addNameRange     '0.1.6',
+27 silly addNameRange     '0.1.7',
+27 silly addNameRange     '0.1.8',
+27 silly addNameRange     '0.1.9',
+27 silly addNameRange     '0.1.10',
+27 silly addNameRange     '0.1.11',
+27 silly addNameRange     '0.1.12',
+27 silly addNameRange     '0.1.13',
+27 silly addNameRange     '0.2.0',
+27 silly addNameRange     '0.3.0',
+27 silly addNameRange     '0.4.0',
+27 silly addNameRange     '0.4.1',
+27 silly addNameRange     '0.4.2',
+27 silly addNameRange     '0.4.3',
+27 silly addNameRange     '0.4.4',
+27 silly addNameRange     '0.4.5',
+27 silly addNameRange     '0.4.6',
+27 silly addNameRange     '0.4.7',
+27 silly addNameRange     '0.5.0',
+27 silly addNameRange     '0.5.1',
+27 silly addNameRange     '0.5.2',
+27 silly addNameRange     '0.5.3',
+27 silly addNameRange     '0.6.0',
+27 silly addNameRange     '0.6.1',
+27 silly addNameRange     '0.6.3',
+27 silly addNameRange     '0.6.4',
+27 silly addNameRange     '0.6.5',
+27 silly addNameRange     '0.6.7',
+27 silly addNameRange     '0.6.8',
+27 silly addNameRange     '0.6.9',
+27 silly addNameRange     '0.6.10',
+27 silly addNameRange     '0.6.11',
+27 silly addNameRange     '0.6.12',
+27 silly addNameRange     '0.7.0',
+27 silly addNameRange     '0.7.1',
+27 silly addNameRange     '0.7.2',
+27 silly addNameRange     '0.7.3',
+27 silly addNameRange     '0.7.4',
+27 silly addNameRange     '0.7.5',
+27 silly addNameRange     '0.7.6',
+27 silly addNameRange     '0.7.7',
+27 silly addNameRange     '0.8.0',
+27 silly addNameRange     '0.9.0' ] ]
+28 verbose addNamed mup@0.9.0
+29 silly addNamed semver.valid 0.9.0
+30 silly addNamed semver.validRange 0.9.0
+31 silly cache afterAdd mup@0.9.0
+32 verbose afterAdd /Users/matthewobrien/.npm/mup/0.9.0/package/package.json not in flight; writing
+33 verbose afterAdd /Users/matthewobrien/.npm/mup/0.9.0/package/package.json written
+34 silly install resolved [ { name: 'mup',
+34 silly install resolved     version: '0.9.0',
+34 silly install resolved     description: 'Production Quality Meteor Deployments',
+34 silly install resolved     dependencies:
+34 silly install resolved      { nodemiral: '0.3.x',
+34 silly install resolved        cjson: '0.3.x',
+34 silly install resolved        uuid: '1.4.x',
+34 silly install resolved        colors: '0.6.x',
+34 silly install resolved        rimraf: '2.x.x',
+34 silly install resolved        underscore: '1.7.0' },
+34 silly install resolved     bin: { mup: './bin/mup' },
+34 silly install resolved     author:
+34 silly install resolved      { name: 'Arunoda Susiripala',
+34 silly install resolved        email: 'arunoda.susiripala@gmail.com' },
+34 silly install resolved     repository: { type: 'git', url: 'git://github.com/arunoda/meteor-up.git' },
+34 silly install resolved     license: 'MIT',
+34 silly install resolved     gitHead: '0df2a97914e0da1c55660fba716340904be7e9b7',
+34 silly install resolved     bugs: { url: 'https://github.com/arunoda/meteor-up/issues' },
+34 silly install resolved     homepage: 'https://github.com/arunoda/meteor-up',
+34 silly install resolved     _id: 'mup@0.9.0',
+34 silly install resolved     scripts: {},
+34 silly install resolved     _shasum: '1b7a989e329163721b6e8cdd153c2f5461b8db92',
+34 silly install resolved     _from: 'mup@*',
+34 silly install resolved     _npmVersion: '1.4.28',
+34 silly install resolved     _npmUser: { name: 'arunoda', email: 'arunoda.susiripala@gmail.com' },
+34 silly install resolved     maintainers: [ [Object] ],
+34 silly install resolved     dist:
+34 silly install resolved      { shasum: '1b7a989e329163721b6e8cdd153c2f5461b8db92',
+34 silly install resolved        tarball: 'http://registry.npmjs.org/mup/-/mup-0.9.0.tgz' },
+34 silly install resolved     directories: {},
+34 silly install resolved     _resolved: 'https://registry.npmjs.org/mup/-/mup-0.9.0.tgz',
+34 silly install resolved     readme: 'ERROR: No README data found!' } ]
+35 info install mup@0.9.0 into /usr/local/lib
+36 info installOne mup@0.9.0
+37 verbose installOne of mup to /usr/local/lib not in flight; installing
+38 verbose lock using /Users/matthewobrien/.npm/_locks/mup-2c0f78d4aacbd233.lock for /usr/local/lib/node_modules/mup
+39 silly install write writing mup 0.9.0 to /usr/local/lib/node_modules/mup
+40 silly cache addNamed cb mup@0.9.0
+41 verbose unbuild lib/node_modules/mup
+42 verbose gentlyRm vacuuming /usr/local/lib/node_modules/mup
+43 verbose tar unpack /Users/matthewobrien/.npm/mup/0.9.0/package.tgz
+44 verbose tar unpacking to /usr/local/lib/node_modules/mup
+45 verbose gentlyRm vacuuming /usr/local/lib/node_modules/mup
+46 silly gunzTarPerm modes [ '755', '644' ]
+47 error tar.unpack untar error /Users/matthewobrien/.npm/mup/0.9.0/package.tgz
+48 verbose unlock done using /Users/matthewobrien/.npm/_locks/mup-2c0f78d4aacbd233.lock for /usr/local/lib/node_modules/mup
+49 verbose fstream_path /usr/local/lib/node_modules/mup
+50 verbose fstream_type Directory
+51 verbose fstream_class DirWriter
+52 verbose stack Error: EACCES, mkdir '/usr/local/lib/node_modules/mup'
+52 verbose stack     at Error (native)
+53 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+53 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+53 verbose fstream_stack FSReqWrap.oncomplete (fs.js:99:15)
+54 verbose cwd /Users/matthewobrien/Desktop/microscope
+55 error Darwin 14.1.0
+56 error argv "node" "/usr/local/bin/npm" "install" "-g" "mup"
+57 error node v0.12.0
+58 error npm  v2.5.1
+59 error path /usr/local/lib/node_modules/mup
+60 error code EACCES
+61 error errno -13
+62 error Error: EACCES, mkdir '/usr/local/lib/node_modules/mup'
+62 error     at Error (native)
+62 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/mup']
+62 error   errno: -13,
+62 error   code: 'EACCES',
+62 error   path: '/usr/local/lib/node_modules/mup',
+62 error   fstream_type: 'Directory',
+62 error   fstream_path: '/usr/local/lib/node_modules/mup',
+62 error   fstream_class: 'DirWriter',
+62 error   fstream_stack:
+62 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+62 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+62 error      'FSReqWrap.oncomplete (fs.js:99:15)' ] }
+63 error Please try running this command again as root/Administrator.
+64 verbose exit [ -13, true ]
+65 verbose unbuild lib/node_modules/mup
+66 verbose gentlyRm vacuuming /usr/local/lib/node_modules/mup
